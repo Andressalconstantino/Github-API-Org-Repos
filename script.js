@@ -23,6 +23,10 @@ function showRepos(input){
             else{
                 let content = '';
                 $.each(data, function(i, status){
+                    let description = status.description
+                    if (description==null){
+                        description = 'Sem descrição';
+                    };
                     content += `<a target="_blank" href="${status.html_url}">
                         <div class="repository">
                             <div class="repo-info">
@@ -30,7 +34,7 @@ function showRepos(input){
                                 <h3>${status.owner.login} - ${i+1} </h3>
                             </div>
                             <div class="repo-desc">
-                                ${status.description}
+                                ${description}
                             </div>
                         </div>
                     </a>\n`
