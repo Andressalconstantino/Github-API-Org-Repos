@@ -8,6 +8,7 @@ a{
     margin: 0;
 }
 
+
 body{
     display: flex;
     flex-direction: column;
@@ -31,6 +32,8 @@ menu{
     justify-content: space-evenly;
     margin-bottom: 50px;
 }
+
+
 h1{
     color: #3F1EC0;
     text-align: center;
@@ -166,6 +169,11 @@ menu span a:hover{
         opacity: 1;
     }
 }
+h4{
+  color: #5c3fd9;
+  font-weight: 400;
+  font-size: 22px;
+}
 .repository:hover{
     margin: 20px 0 30px 0;
     transition: 0.5s;
@@ -199,6 +207,36 @@ menu span a:hover{
     width: 15%;
     align-self: center;
     margin: 100px 0;
+}
+
+#aboutMe{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+
+#box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#box-description{
+  border-bottom: 1px solid;
+  border: 2px solid rgba(13,13,13,0.6);
+  background-color: #131313;
+  width: 50%;
+  padding: 40px 60px;
+}
+#box-description h1{
+  width: 100%;
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+#box-description p{
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* ------------- LOADER ------------------ */
