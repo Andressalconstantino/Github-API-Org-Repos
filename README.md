@@ -8,7 +8,7 @@
 </p>
 
 <br>
-Visite o site <a href="https://andressalconstantino.github.io/Github-API-Org-Repos/">aqui</a>.
+Visite o site <a target="_blank" href="https://andressalconstantino.github.io/Github-API-Org-Repos/">aqui</a>.
 
 ## Objetivos
 - [x] Realizar requisição em uma api do github
